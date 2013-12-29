@@ -1,0 +1,42 @@
+#content {
+    background: #D3E0CF;
+}
+#sideBar ul {
+    margin-bottom: 0;
+}
+.m-header {
+    background: #454545;
+    color: #fff;
+}
+.m-logo {
+    text-align: center;
+}
+.m-sideBar-item {
+    
+    background: #ccc;
+    text-align: center;
+    padding: 60px;
+    border: 1px solid #fff;
+
+}
+.m-nav {   
+    list-style: none;    
+    margin: 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.m-nav-item {
+    float: left;
+    width: 16%;
+    height: 60px;
+    line-height: 60px;   
+    background: lightblue;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+.f-ml-30 {
+    margin-left: -30px;
+}
+.f-mb-40 {
+    margin-bottom: 40px;
+}

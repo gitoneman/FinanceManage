@@ -6,6 +6,6 @@ angular.module('FinanceManage.controllers', []).
   controller('MyCtrl1', [function() {
 
   }])
-  .controller('MyCtrl2', [function() {
-
-  }]);
+  .controller('newEventCtrl', function($scope) {
+  	
+  });

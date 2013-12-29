@@ -7,21 +7,26 @@
 	<meta name="description" content=""/>
 	<meta name="viewport" content="width=device-width"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">	
 	<link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 	<div id="wrap">
-		<div id="header">
-			
+		<div id="header" class="row-fluid m-header">
+			<div class="span3 m-logo"><h1>家庭财产管理</h1></div>
+			<div class="span9"></div>
 		</div>
-		<div id="content" class="row">
-			<div id="sideBar" class="span4">
-				11
+		<div id="content" class="row-fluid">
+			<div id="sideBar" class="span2">
+				<ul class="nav nav-tabs nav-stacked">
+					<li class="m-sideBar-item active"><span><a href="#/view1">1111</a></span></li>
+					<li class="m-sideBar-item"><span><a href="#/view2">新建</a></span></li>
+					<li class="m-sideBar-item"><span><a href="">新建</a></span></li>
+					<li class="m-sideBar-item"><span><a href="">新建</a></span></li>						
+				</ul>
 			</div>
-			<div id="main" class="span8">
-				22
+			<div id="main" class="span10 ">
+				<div ng-view class="f-ml-30"></div>
 			</div>
 		</div>
 		<div id="footer">
@@ -30,12 +35,14 @@
 	</div>
 	<script src="lib/angular/jquery-1.9.1.min.js"></script>
 	<script src="lib/bootstrap/bootstrap.min.js"></script>
-	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/angular/angular.js"></script>
 	<script src="lib/angular/angular-route.js"></script>
 	<script src="js/app.js"></script>
   	<script src="js/services.js"></script>
   	<script src="js/controllers.js"></script>
   	<script src="js/filters.js"></script>
   	<script src="js/directives.js"></script>
+  	<script src="lib/echarts/esl.js"></script>
+  	<script src="lib/echarts/echarts.js"></script>  	
 </body>
 </html>
